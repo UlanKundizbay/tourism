@@ -1,0 +1,44 @@
+.nav-bar {
+    z-index: 1;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    border: 1px black solid;
+}
+.header{ 
+    margin-top: 25px;
+}
+.main-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+.chat-list{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self:center;
+    width: 90%;
+    height: 500px;
+    margin-top: 35px ;
+    border: 1px black solid;
+}
+.message-sender{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+}
+.nav-bar i{
+    font-size: 25px;
+}
